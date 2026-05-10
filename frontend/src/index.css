@@ -47,7 +47,7 @@ html, body, #root {
   position: absolute;
   width: 12px;
   height: 12px;
-  border-color: #00ffd1;
+  border-color: #00ff88;
   pointer-events: none;
 }
 .hud-panel-corner::before {

@@ -25,7 +25,7 @@ const HOVER_SCALE = 1.8;
 const SELECTED_SCALE = 2.0;
 const HIT_RADIUS = 0.04;
 const EARTH_TEXTURE_URL = "https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg";
-const COLOR_SELECT_A = "#00ffd1";   // cyan
+const COLOR_SELECT_A = "#00ff88";   // green
 const COLOR_SELECT_B = "#ff8c42";   // amber
 const ARC_COLOR = "#ffffff";
 const ARC_SEGMENTS = 64;            // smoothness of the connection arc
@@ -100,7 +100,7 @@ function WireframeEarth({ children, paused }) {
       <mesh>
         <sphereGeometry args={[SPHERE_RADIUS, SPHERE_SEGMENTS, SPHERE_SEGMENTS]} />
         <meshBasicMaterial
-          color="#00ffd1"
+          color="#00ff88"
           wireframe
           transparent
           opacity={0.12}

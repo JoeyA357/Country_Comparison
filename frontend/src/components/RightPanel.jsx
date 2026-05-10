@@ -2,7 +2,7 @@ import CountrySlot from "./CountrySlot";
 import BreakdownBar from "./BreakdownBar";
 import { similarityPercentile } from "../lib/stats";
 
-const COLOR_A = "#00ffd1";
+const COLOR_A = "#00ff88";
 const COLOR_B = "#ff8c42";
 
 export default function RightPanel({ data, mode, selection }) {

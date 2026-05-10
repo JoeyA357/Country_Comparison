@@ -15,8 +15,8 @@ export default {
           grid:      "#0f1a26",   // background grid lines
           text:      "#c8d4e0",   // primary text
           textDim:   "#5a6878",   // secondary text
-          accent:    "#00ffd1",   // primary cyan accent (selections, primary buttons)
-          accentDim: "#00b894",   // subdued cyan
+          accent:    "#00ff88",   // primary green accent (selections, primary buttons)
+          accentDim: "#00c268",   // subdued green
           warn:      "#ff8c42",   // amber for secondary highlights
           danger:    "#ff3860",   // red for warnings / outliers
           ok:        "#3edd6e",   // green for success / confirmed
@@ -29,7 +29,7 @@ export default {
       },
       boxShadow: {
         // glow effects for highlighted elements
-        glow:     "0 0 12px rgba(0, 255, 209, 0.4), inset 0 0 1px rgba(0, 255, 209, 0.6)",
+        glow:     "0 0 12px rgba(0, 255, 136, 0.4), inset 0 0 1px rgba(0, 255, 136, 0.6)",
         glowWarn: "0 0 12px rgba(255, 140, 66, 0.4), inset 0 0 1px rgba(255, 140, 66, 0.6)",
       },
       animation: {

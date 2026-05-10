@@ -13,8 +13,8 @@
 
 function colorForCost(cost) {
   // Map cost ∈ [0, 1] to a color
-  // 0.0 = cyan, 0.4 = amber, 1.0 = red
-  if (cost < 0.3) return "#00ffd1";
+  // 0.0 = green, 0.4 = amber, 1.0 = red
+  if (cost < 0.3) return "#00ff88";
   if (cost < 0.6) return "#ff8c42";
   return "#ff3860";
 }

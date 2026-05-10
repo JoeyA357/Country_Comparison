@@ -42,7 +42,7 @@ OUT_PAIRS = OUT_DIR / "pairs.json"
 # Cluster colors (military HUD palette — high contrast on dark bg)
 # ─────────────────────────────────────────────────────────────────────
 HUD_PALETTE = [
-    "#00ffd1",  # cyan
+    "#00ff88",  # green
     "#ff8c42",  # amber
     "#7d5cff",  # violet
     "#ff3860",  # red
