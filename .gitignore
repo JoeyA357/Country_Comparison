@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Node
+node_modules/
+*.log
+.env
+.env.*
+
+# Generated binary/cache data (large, reproducible — exclude from VCS)
+data/*.npz
+data/*.pkl
+
+# Frontend build artifacts
+frontend/dist/
+frontend/.vite/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
